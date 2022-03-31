@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class Banco {
     private LinkedList<Conta> contas = new LinkedList<Conta>();
-    //private LinkedList<PoupancaFeia> poupancas = new LinkedList<PoupancaFeia>();
 
     public int criarContaImposto() {
         Random r = new Random();
