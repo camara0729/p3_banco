@@ -10,6 +10,5 @@ public class ContaImposto extends Conta{
     public void depositar(double quantia) {
         quantia = quantia - quantia*0.001;
         super.depositar(quantia);
-        //saldo += valor;
     }
 }
